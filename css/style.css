@@ -1,0 +1,148 @@
+/*Base classes*/
+.container {
+	max-width:1088px;
+	width: 100%;
+	margin: 0 auto;
+}
+.d-flex {
+	display: flex;
+}
+/*Header*/
+.bg-header {
+	background-image: url('../img/header-image.jpg');
+	height: 324px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.flex-header {
+	justify-content: space-between;
+	padding-top: 30px;
+}
+li {
+	margin-right: 49px;
+}
+li a {
+	color: #fff;
+}
+li:last-child {
+	margin-right: 0;
+}
+.title-header {
+	color:#fff;
+	font-size: 42px;
+	font-family: 'Poppins', sans-serif; 
+}
+.p-header,
+.about-header {
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	display: inline-block;
+}
+.p-header::after {
+	content: ' ';
+	width: 1px;
+	height: 19px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 0 16.5px 0  14.5px;
+}
+.divider {
+	width: 1px;
+	height: 19px;
+	background-color: #fff;
+	margin: 0 16.5px 0  14.5px;
+}
+.about-wraper {
+	position: absolute;
+	top: 146px;
+}
+.logo-h2 {
+	color: #fff;
+}
+.burger-icon {
+	color: #fff;
+	font-size: 30px;
+	margin: 0 15px;
+	display: none;
+}
+/*Section*/
+.bg-section {
+	background-image: url('../img/section-image.jpg');
+	height: 615px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.title-h3 {
+	color: #5863F8;
+	font-size: 14px;
+}
+.section-p {
+	font-size: 42px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif; 
+	width: 376px;
+}
+.box {
+	background-color: #fff;
+	width: 260px;
+	height: 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.box-wraper {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.icon img {
+	height: 32px;
+}
+.icon-box {
+	width: 59px;
+	height: 58px;
+	background: #5863F8;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.video-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.video1 {
+	max-width: 500px;
+	width: 100%;
+	height: 300px;
+	background-color: aqua;
+}
+.video2 {
+	max-width: 500px;
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+}
+.youtube-video {
+	width: 100%;
+	height: 350px;
+}
+.image-box img {
+	width: 260px;
+	display: block;
+}
+.images-flex {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
