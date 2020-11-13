@@ -146,3 +146,59 @@ li:last-child {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+
+/*Form*/
+/*input {
+	width: 100%;
+}*/
+/*input[type=text] {
+	width: 100%;
+}*/
+/*textarea {
+	width: 100%;
+}*/
+.form-wraper {
+	max-width: 600px;
+	width: 100%;
+}
+.div-form-wraper {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+/*input {
+	width: 200px;
+	height: 60px;
+}*/
+.input-wraper {
+/*	border: none;
+	border-bottom: 1px solid blue;*/
+	border-radius: 30px;
+	margin-top: 10px;
+	background: aqua;
+	color: #fff;
+	font-size: 22px;
+	padding-left: 30px;
+}
+.input-wraper::placeholder {
+	color: red;
+	font-size: 18px;
+}
+.input-wraper:focus,
+.textarea-wraper:focus{
+	outline: none;
+}
+.textarea-wraper {
+	resize: none;
+	height: 100px;
+	color: red;
+	font-style: italic;
+}
+.btn {
+	width: 150px;
+	height: 60px;
+	background-color: red;
+	color: #fff;
+	border: none;
+}

@@ -3,19 +3,81 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Lesson 10 </title>
+	<meta name="description" content="Our websiet description">
+  	<meta name="keywords" content="HTML,CSS, Flex, Responsive, Form">
+  	<meta name="google" content="notranslate" />
+  	<meta name="author" content="kristina">
+  	<!-- fb meta tags -->
+  	<meta property="og:url"  content="https://kristina-makalatia.github.io/responsiveG/" />
+	<meta property="og:type"  content="article" />
+	<meta property="og:title"              content="Our Fb title" />
+	<meta property="og:description"        content="Our Fb description" />
+	<meta property="og:image"              content="https://cf.bstatic.com/images/hotel/max1280x900/199/199637990.jpg" />
+	<title>Lesson 11 </title>
 	<script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-	<header class="bg-header">
+
+	<form class="form-wraper">
+		<div class="div-form-wraper">
+			<label class="" for="name"> Name </label>
+			<input class="input-wraper" type="text" name="fname" id="name" placeholder="Enter your name" required>
+		</div>
+
+		<div class="div-form-wraper">
+			<label for="mypassword"> Password </label>
+			<input class="input-wraper"  type="password" name="password" id="mypassword" placeholder="Enter your password" required>
+		</div>
+
+		<div class="div-form-wraper">
+			<label for="birthday">Birthday Date</label>
+			<input class="input-wraper" type="date" name="date" id="birthday" required>
+		</div>
+
+		<div class="div-form-wraper">
+			<label>Message</label>
+			<textarea class="textarea-wraper" id="message" placeholder="Enter Your Message" required> </textarea>
+			
+		</div>
+
+		<div class="div-form-wraper1">
+			<h2> Gender </h2>
+			<div>
+				<input type="radio" name="gender" id="mygender">
+				<label>Male</label>
+			</div>
+			<div>
+				<input type="radio" name="gender" id="mygender">
+				<label>Female</label>
+			</div>
+		</div>
+
+		<div class="div-form-wraper1">
+			<h2> Hobby </h2>
+			<div>
+				<input type="checkbox" name="music" id="hobyy">
+				<label>Music</label>
+			</div>
+			<div>
+				<input type="checkbox" name="dance" id="myhobyy">
+				<label>Dance</label>
+			</div>
+		</div>
+
+		<button class="btn" type="submit"> Send</button>
+	</form>
+
+
+
+	<!-- <header class="bg-header">
 		<div class="container">
 			<div class="flex-header d-flex">
 				<a href="index.html">
-					<!-- <img src=""> -->
-					<h2 class="logo-h2"> Zetta Hotels</h2>
+					 <img src=""> -->
+					<!-- <h2 class="logo-h2"> Zetta Hotels</h2>
 				</a>
 				<div class="right-block d-flex">
 					<nav class="navigation">
@@ -38,20 +100,20 @@
 							<li class="nav-li active">
 								<a href="#"> Contact</a> 
 							</li>
-						</ul>
-					</nav>
+						</ul> -->
+			<!-- 		</nav>
 					<div class="burger-icon">
 						<i class="fas fa-bars"></i>
 					</div>
 				</div>
-			</div>
-			<div class="about-wraper">
+			</div> --> 
+	<!-- 		<div class="about-wraper">
 				<h2 class="title-header"> About us </h2>
 			
 				<div class="about-us">
-					<p class="p-header"> Home </p>
+					<p class="p-header"> Home </p> -->
 					<!-- <div class="divider"> </div> -->
-					<p class="about-header"> About us</p>
+<!-- 					<p class="about-header"> About us</p>
 				</div>
 			</div>
 		</div>
@@ -78,9 +140,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
-	<section>
+<!-- 	<section>
 		<div class="container">
 			<iframe class="youtube-video" src="https://www.youtube.com/embed/QVFoI9HNJ34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
@@ -103,13 +165,13 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
 
 
 	
-	
+<!-- 	
 	<section class="bg-section">
 		<div class="container">
 			<h3 class="title-h3"> About us </h3>
@@ -146,6 +208,6 @@
 			</div>
 		</div>
 	</section>
-	
+	 -->
 </body>
 </html>
